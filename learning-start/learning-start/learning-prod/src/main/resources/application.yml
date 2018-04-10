@@ -1,0 +1,21 @@
+spring: 
+  application: 
+    name: prod-server
+  datasource:
+    url: jdbc:mysql://localhost:3306/firstuser?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 182820
+    driver-class-name: com.mysql.jdbc.Driver
+  
+
+server: 
+  port: 2222
+    
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:1111/eureka/
+      
+  
+
+ 
